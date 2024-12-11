@@ -1,0 +1,81 @@
+body {
+    background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/survey-form_z1_eADwu_SB_PM.jpg');
+   background-size: cover; 
+   background-repeat: no-repeat; 
+   background-position: center; 
+   display: grid;
+   place-items: center;
+   height: 100vh;
+   margin: 0;
+ }
+ 
+ h1#title {
+   font-size: 2em;
+   text-align: center;
+   color: rgb(0, 99, 61);
+   margin-bottom: 10px;
+ }
+ 
+ p#description {
+   font-size: 1.2em;
+   text-align: center;
+   color: rgb(0, 124, 52);
+   margin-bottom: 20px;
+ }
+ 
+ #survey-form {
+   background-color: rgba(255, 255, 255, 0.9);
+   width: 90%;
+   max-width: 700px;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+ }
+ 
+ 
+ label {
+   display: block;
+   margin: 15px 0 5px;
+   font-weight: bold;
+ }
+ 
+ input[type="text"],
+ input[type="email"],
+ input[type="number"],
+ select,
+ textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 1em;
+ }
+ 
+ input[type="radio"],
+ input[type="checkbox"] {
+   margin-right: 10px;
+ }
+ 
+ textarea {
+   height: 80px;
+   resize: vertical;
+ }
+ 
+ button#submit {
+   width: 100%;
+   padding: 10px;
+   background-color: #5a9;
+   color: white;
+   font-size: 1.1em;
+   font-weight: bold;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+ 
+ button#submit:hover {
+   background-color: #48a;
+ }
+ 
